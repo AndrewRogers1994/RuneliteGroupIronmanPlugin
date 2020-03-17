@@ -6,3 +6,6 @@ Features:
 * Remove Grand Exchange options
 * Remove trade options from anyone outside of your group
 * Display a message in chat when someone outside of your group tries to trade with you
+
+Example:
+![In game screenshot](https://i.ibb.co/s34yHsg/groupironmanpicture.png)
