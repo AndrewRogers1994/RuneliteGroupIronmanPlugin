@@ -1,7 +1,6 @@
 package net.runelite.client.plugins.groupironman;
 
 import com.google.inject.Provides;
-import jdk.internal.jline.internal.Log;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
@@ -165,7 +164,7 @@ public class GroupIronman extends Plugin
 		}
 		catch (Exception e)
 		{
-			Log.error("Could not get team members: " + e.getMessage());
+			log.error("Could not get team members: " + e.getMessage());
 		}
 	}
 
